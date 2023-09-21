@@ -1,0 +1,55 @@
+/* Userdashboard.css */
+
+/* Existing styles for the search bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.search-bar form {
+  width: 50%; /* Set the width to 50% */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar input {
+  flex: 1; /* Let the input take up the available space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px; /* Rounded left corners */
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 0 10px 10px 0; /* Rounded right corners */
+  cursor: pointer;
+}
+
+/* Styles for the result box */
+.result-box {
+  margin-top: 20px; /* Adjust the margin as needed */
+  padding: 20px;
+  background: #f5f5f5; /* Background color for the box */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+/* Button style for viewing menu */
+.result-box button {
+  margin-top: 10px; /* Adjust the margin as needed */
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */

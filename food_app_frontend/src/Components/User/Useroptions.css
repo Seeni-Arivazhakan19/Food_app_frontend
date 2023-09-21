@@ -1,0 +1,28 @@
+/* Useroptions.css */
+
+.user-options {
+    background-color: white; /* Set the background color to white */
+    padding: 10px 0; /* Add some padding */
+    width: 100%;
+  }
+  
+  .user-options ul {
+    list-style: none; /* Remove list bullets */
+    display: flex; /* Display list items horizontally */
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  .user-options li {
+    margin: 0 20px; /* Increase the margin for more spacing between list items */
+  }
+  
+  .user-options a {
+    text-decoration: none; /* Remove underline on links */
+    color: crimson; /* Set link color to crimson */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .user-options a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

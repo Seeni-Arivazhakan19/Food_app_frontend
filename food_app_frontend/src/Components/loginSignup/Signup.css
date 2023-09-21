@@ -1,0 +1,22 @@
+/* Add appropriate margins and paddings to the form container */
+/* Add appropriate margins and paddings to the form container */
+.container {
+  margin-top: 50px; /* Reduce top margin to move the form below the navbar */
+  padding-bottom: 100px; /* Add padding to ensure form is not hidden by the footer */
+}
+
+  
+  /* Adjust the top margin of the form to avoid overlap with navbar */
+  .forms {
+    margin-top: 20px;
+  }
+  
+  /* Add a margin to the bottom of the section to create space for the footer */
+  section {
+    margin-bottom: 100px;
+  }
+
+  input:focus{
+    outline-color: crimson;
+}
+  
